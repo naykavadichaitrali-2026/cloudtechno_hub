@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cloud Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 25px;
+            background: #101827;
+        }
+
+        header h1 {
+            color: #38bdf8;
+        }
+
+        nav {
+            padding: 15px;
+            background: #1e293b;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background: #38bdf8;
+            color: #101827;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #0ea5e9;
+            color: white;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 12px;
+            width: 250px;
+        }
+
+        .card h3 {
+            color: #38bdf8;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #101827;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☁ My Cloud Website</h1>
+        <p>Welcome to the World of Cloud Computing</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to My Cloud Website</h2>
+        <p>This website is running on the cloud.</p>
+        <button onclick="showMessage()">Explore Now</button>
+    </section>
+
+    <section class="features" id="features">
+
+        <div class="card">
+            <h3>☁ Cloud Hosting</h3>
+            <p>Access your website anytime and anywhere.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Fast Performance</h3>
+            <p>Enjoy fast and reliable website performance.</p>
+        </div>
+
+        <div class="card">
+            <h3>📈 Scalability</h3>
+            <p>Increase resources according to user demand.</p>
+        </div>
+
+    </section>
+
+    <section id="about" class="hero">
+        <h2>About This Project</h2>
+        <p>This project demonstrates website hosting using GitHub Pages.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Cloud Website | Created using HTML, CSS and JavaScript</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Welcome to My Cloud Website!");
+        }
+    </script>
+
+</body>
+</html>
